@@ -62,27 +62,28 @@ info, который возвращает инфу о книге в виде с�
 Переобпределите метод info.
 """
 
-class Teacher:
+# class Teacher:
 
-    def __init__(self, name, subject):
-        self.name = name
-        self.subject = subject
+#     def __init__(self, name, subject):
+#         self.name = name
+#         self.subject = subject
 
-    def info(self):
-        print(f'{self.name} предмет преподавания {self.subject}')
-
-
-class TeacherMath(Teacher):
-    pass
+#     def info(self):
+#         print(f'{self.name} предмет преподавания {self.subject}')
 
 
-class TeacherLang(Teacher):
-    pass
+# class TeacherMath(Teacher):
+#     pass
 
 
-teacher_math = TeacherMath(name='Фибоначчи', subject='Матем')
-teacher_lang = TeacherLang(name='Гвидо Ван Россум', subject='Python')
+# class TeacherLang(Teacher):
+#     pass
 
-teacher_math.info()
-teacher_lang.info()
+
+# teacher_math = TeacherMath(name='Фибоначчи', subject='Матем')
+# teacher_lang = TeacherLang(name='Гвидо Ван Россум', subject='Python')
+
+# teacher_math.info()
+# teacher_lang.info()
+
 
