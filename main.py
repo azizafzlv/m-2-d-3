@@ -86,4 +86,21 @@ info, который возвращает инфу о книге в виде с�
 # teacher_math.info()
 # teacher_lang.info()
 
+#4
+"""
+-//- вывести чтобы запустилась машина
+"""
+# class Vehicle:
+    
+#     def __init__(self, mark, model):
+#         self.mark = mark
+#         self.model = model
+
+
+#     def start_engine(self):
+#         print(f'{self.mark}-{self.model} заводись')
+
+
+# car1 = Vehicle(mark='Toyota', model='Camry')
+# car1.start_engine()
 
